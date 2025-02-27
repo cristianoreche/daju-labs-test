@@ -1,0 +1,91 @@
+.transaction {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .transaction__title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .transaction__search {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .transaction__table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .transaction__row--header {
+    background: #007bff;
+    color: white;
+  }
+  
+  .transaction__header {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-transform: uppercase;
+  }
+  
+  .transaction__row:nth-child(even) {
+    background: #f9f9f9;
+  }
+  
+  .transaction__data {
+    padding: 12px;
+    border: 1px solid #ddd;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    gap: 10px;
+  }
+  
+  .pagination__button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .pagination__button--nav {
+    background: #f0f0f0;
+    color: #007bff;
+    border: 1px solid #007bff;
+  }
+  
+  .pagination__button--nav:hover {
+    background: #007bff;
+    color: white;
+  }
+  
+  .pagination__button:disabled {
+    background: #ccc;
+    color: #666;
+    cursor: not-allowed;
+  }
+  
+  .pagination__info {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
