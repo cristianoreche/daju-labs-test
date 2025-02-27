@@ -29,3 +29,26 @@ Além disso, foi desenvolvido um **frontend em React** para exibir os dados em u
 ```bash
 git clone https://github.com/seu-usuario/daju-labs-test.git
 cd daju-labs-test
+
+### 2️⃣ Rodar o Backend
+
+Certifique-se de ter o Node.js instalado na sua máquina. Em seguida, execute os seguintes comandos:
+
+```bash
+Copy
+cd backend
+npm install
+node src/server.js
+
+O backend será iniciado em http://localhost:3000.
+
+### 3️⃣ Rodar o Frontend
+
+Certifique-se de ter o Node.js instalado na sua máquina. Em seguida, execute os seguintes comandos:
+
+```bash
+Copy
+cd ../frontend
+npm install
+npm start
+O frontend será iniciado em http://localhost:3001.
